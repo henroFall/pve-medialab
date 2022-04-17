@@ -6,11 +6,11 @@
 
 #---- Bash command to run script ---------------------------------------------------
 
-#---- Source Github
-# bash -c "$(wget -qLO - https://raw.githubusercontent.com/ahuacate/pve-medialab/master/pve_medialab_ct_radarr_installer.sh)"
+#---- Source Github ---> Custom Folder Name #-------------->
+# bash -c "$(wget -qLO - https://raw.githubusercontent.com/henroFall/pve-medialab/master/pve_medialab_ct_radarr_installer.sh)"
 
-#---- Source local Git
-# /mnt/pve/nas-01-git/ahuacate/pve-medialab/pve_medialab_ct_radarr_installer.sh
+#---- Source local Git ---> Custom Folder Name
+# /mnt/pve/nas-01-git/henroFall/pve-medialab/pve_medialab_ct_radarr_installer.sh
 
 #---- Source -----------------------------------------------------------------------
 #---- Dependencies -----------------------------------------------------------------
@@ -38,7 +38,7 @@ rm ${REPO_TEMP}/${GIT_REPO}.tar.gz &> /dev/null
 # Git server
 GIT_SERVER='https://github.com'
 # Git user
-GIT_USER='ahuacate'
+GIT_USER='henroFall'
 # Git repository
 GIT_REPO='pve-medialab'
 # Git branch
