@@ -6,7 +6,7 @@
 
 #---- Bash command to run script ---------------------------------------------------
 
-#bash -c "$(wget -qLO - https://raw.githubusercontent.com/ahuacate/pve-medialab/master/scripts/pve_medialab_ct_radarr.sh)"
+#bash -c "$(wget -qLO - https://raw.githubusercontent.com/henroFall/pve-medialab/master/scripts/pve_medialab_ct_radarr.sh)"
 
 #---- Source -----------------------------------------------------------------------
 
